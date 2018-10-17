@@ -16,7 +16,10 @@
     "HTML",
     "Parser"
   ],
-  "author": "Monty Khanna <montykhanna007@hotmail.com>",
+	"engines": {
+		"node": ">=10.9.0"
+	},
+  "author": "Monty Khanna <mkmontykhanna@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mackraja/react-markup/issues"
