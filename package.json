@@ -1,0 +1,30 @@
+{
+  "name": "react-markup",
+  "version": "1.0.0",
+  "description": "ReactJs HTML Parser",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackraja/react-markup.git"
+  },
+  "keywords": [
+    "React",
+    "JS",
+    "HTML",
+    "Parser"
+  ],
+  "author": "Monty Khanna <montykhanna007@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mackraja/react-markup/issues"
+  },
+  "homepage": "https://github.com/mackraja/react-markup#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2"
+  },
+  "devDependencies": {}
+}
