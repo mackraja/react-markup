@@ -1,5 +1,5 @@
 {
-  "name": "react-markup",
+  "name": "react-html-markup",
   "version": "1.0.0",
   "description": "ReactJs HTML Parser",
   "main": "lib/index.js",
@@ -14,7 +14,8 @@
     "React",
     "JS",
     "HTML",
-    "Parser"
+    "Parser",
+    "Markup"
   ],
 	"engines": {
 		"node": ">=10.9.0"
