@@ -1,6 +1,6 @@
 {
   "name": "react-html-markup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJs HTML Parser",
   "main": "lib/index.js",
   "scripts": {

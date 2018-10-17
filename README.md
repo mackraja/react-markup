@@ -1,14 +1,47 @@
-Introduction
+# react-html-markup
+
+[![react-html-markup]](https://nodei.co/npm/react-html-markup/)
+
+An HTML to React parser that works on the server and the browser:
+
+It converts an HTML string to [React elements](https://facebook.github.io/react/docs/react-api.html#creating-react-elements).
+
+## Example
+
+```js
+
+In React JS
 ------------
 
-Node-config organizes hierarchical configurations for your app deployments.
+import React from 'react';
+import Markup from 'react-html-markup';
 
-It lets you define a set of default parameters,
-and extend them for different deployment environments (development, qa,
-staging, production, etc.).
+export default class DemoClassOne extends React.Component {
+  render () {
+    const dbString = '<p>Hello from React HTML Markup</p>';
+    return (
+      <Markup
+        htmlString={ dbString }
+        htmlTag='div'
+      />
+    );
+  }
+}
+DemoClassOne.propTypes = {};
 
-Configurations are stored in [configuration files](https://github.com/lorenwest/node-config/wiki/Configuration-Files) within your application, and can be overridden and extended by [environment variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables),
- [command line parameters](https://github.com/lorenwest/node-config/wiki/Command-Line-Overrides), or [external sources](https://github.com/lorenwest/node-config/wiki/Configuring-from-an-External-Source).
 
-This gives your application a consistent configuration interface shared among a
-[growing list of npm modules](https://www.npmjs.org/browse/depended/config) also using node-config.
+render;
+// <div><p>Hello from React HTML Markup</p></div>
+```
+
+## Installation
+
+[NPM](https://www.npmjs.com/package/html-react-parser):
+```sh
+$ npm install react-html-markup --save
+```
+
+[Yarn](https://yarn.fyi/html-react-parser):
+```sh
+$ yarn add react-html-markup
+```
