@@ -11,14 +11,13 @@
     "url": "git+https://github.com/mackraja/react-markup.git"
   },
   "keywords": [
-    "React",
-    "JS",
+    "React JS",
     "HTML",
     "Parser",
     "Markup"
   ],
 	"engines": {
-		"node": ">=10.9.0"
+		"node": ">=6.11.2"
 	},
   "author": "Monty Khanna <mkmontykhanna@gmail.com>",
   "license": "ISC",
