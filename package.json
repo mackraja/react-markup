@@ -1,6 +1,6 @@
 {
   "name": "react-html-markup",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ReactJs HTML Parser",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,6 @@
     "Parser",
     "Markup"
   ],
-  "engines": {
-    "node": ">=6.11.2"
-  },
   "author": "Monty Khanna <mkmontykhanna@gmail.com>",
   "license": "ISC",
   "bugs": {
