@@ -1,6 +1,6 @@
 # react-html-markup
 
-[![react-html-markup]](https://nodei.co/npm/react-html-markup/)
+[[react-html-markup]](https://nodei.co/npm/react-html-markup/)
 
 An HTML to React parser that works on the server and the browser:
 
@@ -21,8 +21,9 @@ export default class DemoClassOne extends React.Component {
     const dbString = '<p>Hello from React HTML Markup</p>';
     return (
       <Markup
-        htmlString={ dbString }
-        htmlTag='div'
+        htmlString={ dbString } // html string that is coming from database or static html string.
+        htmlTag='div' // You can add any html tag
+        ... // You can add multiple attributes here like (class, data-title, style), that will apply on htmlTag you defined (div)
       />
     );
   }
@@ -30,8 +31,9 @@ export default class DemoClassOne extends React.Component {
 DemoClassOne.propTypes = {};
 
 
-render;
-// <div><p>Hello from React HTML Markup</p></div>
+Output show in Browser:
+-----------------------
+<div><p>Hello from React HTML Markup</p></div>
 ```
 
 ## Installation
