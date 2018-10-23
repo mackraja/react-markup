@@ -1,6 +1,6 @@
 {
   "name": "react-html-markup",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ReactJs HTML Parser",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,5 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4"
-  },
-  "devDependencies": {}
+  }
 }
