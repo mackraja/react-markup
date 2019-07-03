@@ -47,3 +47,8 @@ $ npm install react-html-markup --save
 ```sh
 $ yarn add react-html-markup
 ```
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/mackraja/react-markup/badge.svg?style=beer-square)](https://beerpay.io/mackraja/react-markup)  [![Beerpay](https://beerpay.io/mackraja/react-markup/make-wish.svg?style=flat-square)](https://beerpay.io/mackraja/react-markup?focus=wish)
