@@ -10,25 +10,23 @@ It converts an HTML string to [React elements](https://facebook.github.io/react/
 
 ```js
 
-In React JS
-------------
+In React JS (Hooks)
+--------------------
 
 import React from 'react';
 import Markup from 'react-html-markup';
 
-export default class DemoClassOne extends React.Component {
-  render () {
-    const dbString = '<p>Hello from <b>React HTML Markup</b></p>';
-    return (
-      <Markup
-        htmlString={ dbString } // html string that is coming from database or static html string.
-        htmlTag='div' // You can add any html tag
-        ... // You can add multiple attributes here like (class, data-title, style), that will apply on htmlTag you defined (div)
-      />
-    );
-  }
+const Foo = () {
+  const dbString = '<p>Hello from <b>React HTML Markup</b></p>';
+  return (
+    <Markup
+      htmlString={ dbString } // html string that is coming from database or static html string.
+      htmlTag='div' // You can add any html tag
+      ... // You can add multiple attributes here like (class, data-title, style), that will apply on htmlTag you defined (div)
+    />
+  );
 }
-DemoClassOne.propTypes = {};
+export default Foo;
 
 
 Output show in Browser:

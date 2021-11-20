@@ -14,4 +14,3 @@ declare const Markup: ({ htmlTag, htmlString, ...rest }: {
     [x: string]: any;
 }, Element>;
 export default Markup;
-

@@ -1,7 +1,7 @@
 {
   "name": "react-html-markup",
-  "version": "1.0.7",
-  "description": "ReactJs HTML Parser",
+  "version": "1.0.8",
+  "description": "React Js HTML Parser",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -14,6 +14,7 @@
   "keywords": [
     "React JS",
     "HTML",
+    "Typescript",
     "Parser",
     "Markup"
   ],
@@ -23,7 +24,7 @@
     "url": "https://github.com/mackraja/react-markup/issues"
   },
   "homepage": "https://github.com/mackraja/react-markup#readme",
-  "dependencies": {    
-    "react": "^15.5.4"
+  "peerDependencies": {    
+    "react": "^17.0.2 || ^16.8.0"
   }
 }
