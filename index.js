@@ -1,36 +1,26 @@
-'use strict';
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; } // eslint-disable-line
-
-
-var Markup = function Markup(_ref) {
-  var htmlTag = _ref.htmlTag,
-    htmlString = _ref.htmlString,
-    rest = _objectWithoutProperties(_ref, ['htmlTag', 'htmlString']);
-  
-  var custom = rest || {};
+var __rest = (this && this.__rest) || function (s, e) {
+  var t = {};
+  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+      t[p] = s[p];
+  if (s != null && typeof Object.getOwnPropertySymbols === "function")
+      for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+          if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+              t[p[i]] = s[p[i]];
+      }
+  return t;
+};
+import React from 'react';
+/**
+* @param htmlTag: html tag like div, td, span
+* @param htmlString: string with html
+* @param rest: other html attributes of [htmlTag]
+* @returns {*|Element} JSX
+* @constructor
+*/
+const Markup = (_a) => {
+  var { htmlTag = 'div', htmlString = '' } = _a, rest = __rest(_a, ["htmlTag", "htmlString"]);
+  const custom = rest || {};
   custom.dangerouslySetInnerHTML = { __html: htmlString };
-  return _react2.default.createElement(htmlTag, custom);
+  return React.createElement(htmlTag, custom);
 };
-
-Markup.propTypes = {
-  htmlTag: _propTypes2.default.string,
-  htmlString: _propTypes2.default.string
-};
-
-Markup.defaultProps = {
-  htmlTag: 'div',
-  htmlString: ''
-};
-
-module.exports = Markup;
+export default Markup;

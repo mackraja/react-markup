@@ -18,7 +18,7 @@ import Markup from 'react-html-markup';
 
 export default class DemoClassOne extends React.Component {
   render () {
-    const dbString = '<p>Hello from React HTML Markup</p>';
+    const dbString = '<p>Hello from <b>React HTML Markup</b></p>';
     return (
       <Markup
         htmlString={ dbString } // html string that is coming from database or static html string.
@@ -33,7 +33,7 @@ DemoClassOne.propTypes = {};
 
 Output show in Browser:
 -----------------------
-<div><p>Hello from React HTML Markup</p></div>
+<div><p>Hello from <b>React HTML Markup</b></p></div>
 ```
 
 ## Installation
@@ -47,8 +47,3 @@ $ npm install react-html-markup --save
 ```sh
 $ yarn add react-html-markup
 ```
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/mackraja/react-markup/badge.svg?style=beer-square)](https://beerpay.io/mackraja/react-markup)  [![Beerpay](https://beerpay.io/mackraja/react-markup/make-wish.svg?style=flat-square)](https://beerpay.io/mackraja/react-markup?focus=wish)
